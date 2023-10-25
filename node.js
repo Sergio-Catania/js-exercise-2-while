@@ -10,7 +10,7 @@ let fraseCambiata = prompt1.replaceAll(prompt2, prompt3);
 console.log(fraseCambiata);
 
 
-Sostituire parole
+SostituireParole
 
 
 
@@ -39,4 +39,20 @@ if (dadoUtente > dadoComputer) {
   alert("Pareggio");
 } else {
   alert("Hai perso");
+}
+
+
+//es.4
+let randomNumber = Math.floor(Math.random() * 10) + 1;
+console.log(randomNumber);
+let numeroUtente = prompt("Indovina il numero da 1 a 10");
+console.log(numeroUtente);
+let numeroUtenteNum = Number(numeroUtente);
+
+if (numeroUtenteNum === randomNumber) {
+  alert("Hai indovinato");
+} else if (numeroUtenteNum < randomNumber) {
+  alert("Prova più alto");
+} else if (numeroUtenteNum > randomNumber) {
+  alert("Prova più basso");
 }
