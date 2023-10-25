@@ -15,3 +15,14 @@ Sostituire parole
 
 
 //es.2
+let url = prompt("Scrivi un URL");
+if (
+  (url.startsWith("http://") || url.startsWith("https://")) &&
+  url.endsWith(".com")
+) {
+  alert("tutto ok");
+} else {
+  alert("errore");
+}
+
+
