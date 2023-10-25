@@ -26,3 +26,17 @@ if (
 }
 
 
+//es.3
+let dadoUtente = Math.floor(Math.random() * 6) + 1;
+let dadoComputer = Math.floor(Math.random() * 6) + 1;
+prompt("Schiacci un bottone per giocare");
+let user = console.log(dadoUtente);
+let computer = console.log(dadoComputer);
+
+if (dadoUtente > dadoComputer) {
+  alert("Hai vinto");
+} else if (dadoUtente === dadoComputer) {
+  alert("Pareggio");
+} else {
+  alert("Hai perso");
+}
